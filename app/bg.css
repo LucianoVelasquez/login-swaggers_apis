@@ -1,0 +1,6 @@
+.mi-section{
+    background-image: url("https://nextui.org/gradients/looper-pattern.svg");
+     /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+  }

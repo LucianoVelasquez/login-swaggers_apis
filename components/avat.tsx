@@ -3,7 +3,7 @@ import { Linkedin,Github } from 'lucide-react';
 
 export default function Avat() {
   return (
-    <div className="flex justify-center items-center gap-x-5 absolute top-5 left-8">
+    <div className=" flex justify-center items-center gap-x-5 absolute top-5 left-8">
     <a href="https://www.linkedin.com/in/lv-dev/" target="_blank"><Linkedin size={32}></Linkedin></a>
     <a href="https://veldev.vercel.app/" target="_blank">
         <Avatar className="w-10 h-10">
