@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto Login Sgwagger UI
+_Este proyecto es una aplicación básica de Next JS._
 
-## Getting Started
+## Instalacion del Proyecto
+```sh
+git clone https://github.com/LucianoVelasquez/login-swaggers_apis.git
+cd login-swaggers_apis
+```
+## Construir el Proyecto
 
-First, run the development server:
+Ejecuta el siguiente comando en el directorio del proyecto para compilar y construir el proyecto:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Puedes ejecutar la aplicación con el siguiente comando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm run dev
+```
+La aplicación debería estar disponible en http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologias implementadas 
 
-## Learn More
+Dillinger uses a number of open source projects to work properly:
 
-To learn more about Next.js, take a look at the following resources:
+- [Spring Boot 3] - Framework para el desarrollo de aplicaciones Java.
+- [Java 17] - Versión moderna del lenguaje de programación Java.
+- [PostgreSQL] - Sistema de gestión de bases de datos relacional.
+- [JWT] - Estándar para la creación de tokens de acceso de forma segura.
+- [Spring Security] - Framework para la gestión de seguridad en aplicaciones Spring.
+- [Spring Validation] - Biblioteca para la validación de datos en aplicaciones Spring.
+- [TypeScript] - Superset de JavaScript que añade tipos estáticos.
+- [Next.js] - Framework de React para la construcción de aplicaciones web estáticas y dinámicas.
+- [React] - Biblioteca de JavaScript para la construcción de interfaces de usuario.
+- [Tailwind CSS] - Framework de CSS para un diseño web rápido y adaptable.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este proyecto tiene un backend realizado con Spring Boot, podes visitarlo https://github.com/LucianoVelasquez/springboot-API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
